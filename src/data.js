@@ -85,7 +85,10 @@ export const projects = [
     ],
     stack: ["React", "Node.js", "Express", "Prisma", "SQLite", "Vite"],
     links: [
-      {label: "Architecture case study", url: "https://github.com/julitodk06/lexiacode-os-case-study"},
+      {
+        label: "Architecture case study",
+        url: "https://github.com/julitodk06/lexiacode-os-case-study"
+      },
       {label: "LexiaCode", url: "https://lexiacode.com"}
     ]
   },
@@ -103,7 +106,10 @@ export const projects = [
     ],
     stack: ["NestJS", "Next.js", "PostgreSQL", "Redis", "TypeORM", "Docker"],
     links: [
-      {label: "Architecture case study", url: "https://github.com/julitodk06/rwa-tokenization-architecture"}
+      {
+        label: "Architecture case study",
+        url: "https://github.com/julitodk06/rwa-tokenization-architecture"
+      }
     ]
   },
   {
