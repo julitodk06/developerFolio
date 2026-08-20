@@ -1,29 +1,21 @@
-# This file is the main docker file configurations
+FROM node:24-alpine AS build
 
-# Official Node JS runtime as a parent image
-FROM node:20.0-alpine
-
-# Set the working directory to ./app
 WORKDIR /app
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package.json ./
+COPY package.json package-lock.json ./
+RUN npm ci
 
-RUN apk add --no-cache git
+COPY . .
+RUN npm run build
 
-# Install any needed packages
-RUN npm install
+FROM nginx:1.29-alpine AS runtime
 
-# Audit fix npm packages
-RUN npm audit fix
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/dist /usr/share/nginx/html/developerFolio
 
-# Bundle app source
-COPY . /app
+EXPOSE 8080
 
-# Make port 3000 available to the world outside this container
-EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget -qO- http://127.0.0.1:8080/developerFolio/ >/dev/null || exit 1
 
-# Run app.js when the container launches
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]

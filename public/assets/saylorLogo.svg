@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Saylor Academy</title>
+  <desc id="desc">Saylor Academy monogram</desc>
+  <rect width="256" height="256" rx="56" fill="#7a1f3d"/>
+  <path d="M177 80c-13-10-30-16-47-16-25 0-42 11-42 27 0 17 20 21 43 26 31 7 57 18 57 53 0 37-31 58-71 58-29 0-55-9-75-27l22-27c15 13 34 21 54 21 20 0 34-8 34-21 0-14-15-18-39-24-32-8-61-19-61-56 0-36 31-57 76-57 26 0 51 8 69 23z" fill="#ffffff"/>
+</svg>

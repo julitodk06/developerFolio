@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">AI Operations</title>
+  <desc id="desc">AI operations network symbol</desc>
+  <rect width="256" height="256" rx="56" fill="#102a43"/>
+  <path d="M78 80h100v96H78z" fill="none" stroke="#ffffff" stroke-width="14"/>
+  <path d="M102 112h52M102 144h52" stroke="#21c7a8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M128 42v31M128 183v31M42 128h29M185 128h29" stroke="#f2c94c" stroke-width="12" stroke-linecap="round"/>
+</svg>
