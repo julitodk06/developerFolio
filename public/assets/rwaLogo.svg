@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">RWA Tokenization</title>
+  <desc id="desc">Connected asset token symbol</desc>
+  <rect width="256" height="256" rx="56" fill="#321a64"/>
+  <circle cx="128" cy="128" r="62" fill="none" stroke="#9b8cff" stroke-width="18"/>
+  <circle cx="128" cy="128" r="22" fill="#ffffff"/>
+  <circle cx="128" cy="48" r="15" fill="#21c7a8"/>
+  <circle cx="197" cy="168" r="15" fill="#21c7a8"/>
+  <circle cx="59" cy="168" r="15" fill="#21c7a8"/>
+</svg>

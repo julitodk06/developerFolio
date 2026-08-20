@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: Please fill out each section below. This info allows maintainers to diagnose (and fix!) your issue as quickly as possible. Before opening a new issue, please search existing issues [here](https://github.com/saadpasta/developerFolio/issues).
+      value: Please fill out each section below. This information helps diagnose the issue efficiently. Before opening a new issue, please search the [existing issues](https://github.com/julitodk06/developerFolio/issues).
 
   - type: textarea
     id: description

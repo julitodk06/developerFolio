@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">LexiaCode</title>
+  <desc id="desc">LexiaCode monogram</desc>
+  <rect width="256" height="256" rx="56" fill="#0b1f33"/>
+  <path d="M72 52h34v118h78v34H72z" fill="#21c7a8"/>
+  <path d="M154 58l40 40-40 40-18-18 22-22-22-22z" fill="#ffffff"/>
+</svg>

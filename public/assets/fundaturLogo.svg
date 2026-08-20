@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Fundatur</title>
+  <desc id="desc">Fundatur foundation monogram</desc>
+  <rect width="256" height="256" rx="56" fill="#0e6b57"/>
+  <path d="M54 62h148v32H90v34h94v32H90v48H54z" fill="#ffffff"/>
+  <circle cx="188" cy="190" r="20" fill="#f2c94c"/>
+</svg>
