@@ -84,7 +84,13 @@ export const projects = [
       "Security hardening, rate limiting, resilient integrations and regression coverage"
     ],
     stack: ["React", "Node.js", "Express", "Prisma", "SQLite", "Vite"],
-    links: [{label: "LexiaCode", url: "https://lexiacode.com"}]
+    links: [
+      {
+        label: "Architecture case study",
+        url: "https://github.com/julitodk06/lexiacode-os-case-study"
+      },
+      {label: "LexiaCode", url: "https://lexiacode.com"}
+    ]
   },
   {
     name: "Lexia Tokenization Platform",
@@ -99,7 +105,12 @@ export const projects = [
       "Least-privilege database roles and append-only audit events"
     ],
     stack: ["NestJS", "Next.js", "PostgreSQL", "Redis", "TypeORM", "Docker"],
-    links: []
+    links: [
+      {
+        label: "Architecture case study",
+        url: "https://github.com/julitodk06/rwa-tokenization-architecture"
+      }
+    ]
   },
   {
     name: "Institutional AI Modernization",
