@@ -13,25 +13,28 @@ export const profile = {
 
 export const metrics = [
   {
-    value: "40%",
-    label: "Operational cycle-time reduction",
+    value: "AI",
+    label: "Human-supervised automation",
     detail:
-      "Reported result associated with AI-powered automation and CRM redesign."
+      "Workflow design with review points, approval controls and responsible use of Generative AI."
   },
   {
-    value: "25+",
-    label: "Product, QA and security milestones",
-    detail: "Directed across the staged development of LexiaCode OS."
+    value: "CRM",
+    label: "Commercial operations",
+    detail:
+      "Modular workflows, lead management, reporting and role-based controls."
   },
   {
-    value: "15+",
-    label: "Operational platform modules",
-    detail: "Delivered within an AI-enabled commercial operations system."
+    value: "QA",
+    label: "Staged product delivery",
+    detail:
+      "Requirements, milestones, validation, security review and delivery coordination."
   },
   {
-    value: "10+",
-    label: "Transformation programs",
-    detail: "Designed for institutions and regional productive sectors."
+    value: "RWA",
+    label: "Preliminary structuring",
+    detail:
+      "Tokenization concepts, architecture and due diligence without claiming asset issuance or capital raised."
   }
 ];
 
@@ -65,7 +68,7 @@ export const capabilities = [
     number: "04",
     title: "RWA & Web3 Systems",
     description:
-      "Structure digital-asset platforms around legal separation, compliance logic, auditability and least privilege.",
+      "Structure digital-asset concepts and architectures around legal separation, compliance logic, auditability and least privilege.",
     items: ["RWA tokenization", "Smart contracts", "Compliance workflows"]
   }
 ];
@@ -79,7 +82,7 @@ export const projects = [
     description:
       "A private CRM and commercial operations platform combining modular workflows, role-based controls and AI-assisted operations.",
     evidence: [
-      "15+ operational modules delivered across 25+ staged milestones",
+      "Modular operational workflows delivered through staged product, QA and security work",
       "Human-in-the-loop approvals and role-based access controls",
       "Security hardening, rate limiting, resilient integrations and regression coverage"
     ],
@@ -122,7 +125,7 @@ export const projects = [
     evidence: [
       "Human review and low-risk adoption patterns",
       "Standardized project briefs and automated reporting",
-      "10+ transformation and AI-adoption programs designed"
+      "Transformation and AI-adoption proposals for institutional and productive-sector needs"
     ],
     stack: ["LLMs", "AI workflows", "APIs", "Reporting", "Risk controls"],
     links: [{label: "Fundatur", url: "https://fundacionfundatur.org"}]
@@ -131,26 +134,26 @@ export const projects = [
 
 export const experience = [
   {
-    period: "2023 - Present",
+    period: "Jan 2023 - Present",
     role: "Managing Director | Technology, AI & Product Lead",
     organization: "LexiaCode",
     description:
       "Lead product strategy, architecture and staged delivery for AI-enabled platforms, enterprise automation and RWA technology engagements.",
     outcomes: [
-      "Directed LexiaCode OS across product, QA and security milestones.",
+      "Directed LexiaCode OS across product, QA and security workstreams.",
       "Coordinated software engineering, legal, marketing and commercial work.",
-      "Structured RWA technology engagements representing USD 2.5M+ in aggregate potential project value, not recognized revenue."
+      "Structured preliminary RWA/tokenization concepts and technology roadmaps across natural-resource, tourism and real-estate opportunities."
     ]
   },
   {
-    period: "2021 - Present",
+    period: "Mar 2021 - Present",
     role: "Director of Innovation & Education",
     organization: "Fundacion Fundatur",
     description:
       "Connect digital transformation, AI adoption and structured delivery with institutional and regional productive-sector needs.",
     outcomes: [
-      "Designed and executed 10+ transformation and AI-adoption programs.",
-      "Formulated frameworks for initiatives with budgets up to USD 1.8M.",
+      "Developed tourism, innovation and regional-development proposals.",
+      "Prepared operational, financing and implementation frameworks for tourism and development initiatives.",
       "Introduced standardized briefs, reporting and approval workflows."
     ]
   }
@@ -158,7 +161,7 @@ export const experience = [
 
 export const education = [
   {
-    institution: "National University of Tucuman (UNT)",
+    institution: "National University of Tucumán (UNT)",
     program: "Programming Studies",
     date: "2020"
   },
@@ -181,20 +184,20 @@ export const education = [
 
 export const stack = [
   "Python",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Express",
-  "NestJS",
   "Prisma",
-  "TypeORM",
+  "SQL",
   "PostgreSQL",
   "SQLite",
-  "Redis",
-  "Docker",
+  "REST APIs",
   "Azure",
+  "Docker",
+  "Git/GitHub",
   "Linux",
   "Nginx",
-  "GitHub Actions"
+  "Redis",
+  "Vite",
+  "CI/CD Concepts"
 ];
