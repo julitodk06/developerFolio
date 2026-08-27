@@ -4,13 +4,13 @@ Executive portfolio for **Julio Antonio Villalobo**, an AI Transformation and Pr
 
 ## Positioning
 
-This portfolio is designed as an evidence layer for executive and technical recruiting. It connects business outcomes with architecture, security, delivery discipline and clearly qualified metrics.
+This portfolio is designed as an evidence layer for executive and technical recruiting. It connects business context with architecture, security, delivery discipline and clearly bounded claims.
 
 ## Selected systems
 
 ### LexiaCode OS
 
-Private AI-enabled CRM and commercial operations platform. The system includes 15+ operational modules, role-based controls and human-in-the-loop workflows developed across 25+ staged product, QA and security milestones.
+Private AI-enabled CRM and commercial operations platform with modular workflows, role-based controls and human-in-the-loop processes delivered through staged product, QA and security work.
 
 **Stack:** React, Node.js, Express, Prisma, SQLite and Vite.
 
@@ -71,7 +71,7 @@ The container serves the portfolio at `http://localhost:8080/developerFolio/`.
 
 ## Privacy and evidence policy
 
-Core systems remain private. Public portfolio content exposes sanitized architecture, scope and delivery signals without publishing credentials, client data or proprietary business logic. The USD 2.5M figure is described only as aggregate potential project value and not recognized revenue.
+Core systems remain private. Public portfolio content exposes sanitized architecture, scope and delivery signals without publishing credentials, client data or proprietary business logic. Quantitative claims are omitted unless they are supported by documented evidence and can be defended consistently.
 
 ## Repository history
 
